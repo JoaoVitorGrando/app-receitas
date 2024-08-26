@@ -12,8 +12,16 @@ const ListaReceitas = () => {
   useEffect(() => {
     const fetchReceitas = async () => {
       try {
-        const data = await getReceitas();
-        setReceitas(data);
+        // Verifica se há receitas no localStorage
+        const storedReceitas = localStorage.getItem('receitas');
+        if (storedReceitas) {
+          setReceitas(JSON.parse(storedReceitas));
+        } else {
+          // Se não houver, busca as receitas da API e salva no localStorage
+          const data = await getReceitas();
+          setReceitas(data);
+          localStorage.setItem('receitas', JSON.stringify(data));
+        }
       } catch (error) {
         console.error('Erro ao buscar receitas:', error);
       } finally {

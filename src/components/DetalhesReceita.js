@@ -1,3 +1,5 @@
+// src/components/DetalhesReceita.js
+
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getReceitaById } from '../services/api';
@@ -11,8 +13,21 @@ const DetalhesReceita = () => {
   useEffect(() => {
     const fetchReceita = async () => {
       try {
-        const data = await getReceitaById(parseInt(id));
-        setReceita(data);
+        // Verifica se as receitas estão armazenadas no localStorage
+        const storedReceitas = localStorage.getItem('receitas');
+        if (storedReceitas) {
+          const receitas = JSON.parse(storedReceitas);
+          const foundReceita = receitas.find(r => r.id === parseInt(id));
+          if (foundReceita) {
+            setReceita(foundReceita);
+          } else {
+            console.error('Receita não encontrada no localStorage.');
+          }
+        } else {
+          // Caso contrário, busca da API
+          const data = await getReceitaById(parseInt(id));
+          setReceita(data);
+        }
       } catch (error) {
         console.error('Erro ao buscar receita:', error);
       } finally {

@@ -13,12 +13,20 @@ const AdicionarReceita = () => {
     e.preventDefault();
 
     const novaReceita = {
+      id: Date.now(), // Gera um ID único
       title,
       ingredients: ingredients.split('\n').map(ingrediente => ingrediente.trim()).filter(ingrediente => ingrediente),
-      instructions
+      instructions,
     };
 
+    //  aiciona a nova receita na API (ou localStorage)
     await addReceita(novaReceita);
+
+    //Atualiza as receitas no localStorage
+    const receitasSalvas = JSON.parse(localStorage.getItem('receitas')) || [];
+    const novasReceitas = [...receitasSalvas, novaReceita];
+    localStorage.setItem('receitas', JSON.stringify(novasReceitas));
+
     navigate('/');
   };
 
