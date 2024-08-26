@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import ListaReceitas from './components/ListaReceitas';
+import DetalhesReceita from './components/DetalhesReceita';
+import AdicionarReceita from './components/AdicionarReceita';
+import './styles/App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <h1>Aplicativo de Receitas</h1>
+          <nav>
+            <ul>
+              <li><Link className="botao" to="/">Lista de Receitas</Link></li>
+              <li><Link className="botao" to="/nova-receita">Adicionar Nova Receita</Link></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<ListaReceitas />} />
+            <Route path="/receita/:id" element={<DetalhesReceita />} />
+            <Route path="/nova-receita" element={<AdicionarReceita />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

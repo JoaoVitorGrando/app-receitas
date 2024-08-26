@@ -1,0 +1,260 @@
+[
+  {
+    "id": 1,
+    "title": "Bolo de Chocolate",
+    "ingredients": [
+      "2 xícaras de farinha de trigo",
+      "1 xícara de açúcar",
+      "1/2 xícara de cacau em pó",
+      "1/2 xícara de manteiga",
+      "3 ovos",
+      "1 xícara de leite",
+      "1 colher de sopa de fermento em pó"
+    ],
+    "instructions": "1. Preaqueça o forno a 180°C. 2. Misture todos os ingredientes secos. 3. Adicione a manteiga e os ovos. 4. Misture bem e adicione o leite. 5. Asse por 30 minutos."
+  },
+  {
+    "id": 2,
+    "title": "Salada Caesar",
+    "ingredients": [
+      "1 cabeça de alface",
+      "1/2 xícara de queijo parmesão ralado",
+      "1/4 xícara de croutons",
+      "1/4 xícara de molho Caesar",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Lave e corte a alface. 2. Misture com queijo parmesão e croutons. 3. Adicione o molho Caesar e tempere a gosto."
+  },
+  {
+    "id": 3,
+    "title": "Sopa de Tomate",
+    "ingredients": [
+      "500g de tomates",
+      "1 cebola",
+      "2 dentes de alho",
+      "1 litro de caldo de legumes",
+      "2 colheres de sopa de azeite",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Refogue a cebola e o alho no azeite. 2. Adicione os tomates picados e o caldo de legumes. 3. Cozinhe até os tomates desmancharem. 4. Bata no liquidificador e ajuste o tempero."
+  },
+  {
+    "id": 4,
+    "title": "Espaguete à Carbonara",
+    "ingredients": [
+      "250g de espaguete",
+      "100g de bacon",
+      "2 ovos",
+      "1/2 xícara de queijo parmesão ralado",
+      "1 dente de alho",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Cozinhe o espaguete conforme as instruções. 2. Frite o bacon e o alho. 3. Misture os ovos e o queijo. 4. Combine o espaguete com o bacon e a mistura de ovos."
+  },
+  {
+    "id": 5,
+    "title": "Panquecas Americanas",
+    "ingredients": [
+      "1 xícara de farinha de trigo",
+      "2 colheres de sopa de açúcar",
+      "1 colher de sopa de fermento em pó",
+      "1/2 colher de chá de sal",
+      "1 ovo",
+      "1 xícara de leite",
+      "2 colheres de sopa de manteiga derretida"
+    ],
+    "instructions": "1. Misture os ingredientes secos. 2. Adicione os ingredientes líquidos e misture bem. 3. Cozinhe em uma frigideira untada até formar bolhas."
+  },
+  {
+    "id": 6,
+    "title": "Hambúrguer Caseiro",
+    "ingredients": [
+      "500g de carne moída",
+      "1 cebola picada",
+      "1 ovo",
+      "1/2 xícara de farinha de rosca",
+      "Sal e pimenta a gosto",
+      "Pães de hambúrguer",
+      "Folhas de alface, tomate e queijo a gosto"
+    ],
+    "instructions": "1. Misture a carne, cebola, ovo e farinha. 2. Modele em hambúrgueres e tempere. 3. Grelhe ou frite os hambúrgueres. 4. Monte com os acompanhamentos."
+  },
+  {
+    "id": 7,
+    "title": "Tacos Mexicanos",
+    "ingredients": [
+      "8 tortillas de milho",
+      "300g de carne moída",
+      "1/2 cebola picada",
+      "1 tomate picado",
+      "1/4 xícara de queijo ralado",
+      "Folhas de alface",
+      "Molho picante a gosto"
+    ],
+    "instructions": "1. Cozinhe a carne com a cebola. 2. Monte os tacos com carne, tomate, alface e queijo. 3. Adicione o molho picante."
+  },
+  {
+    "id": 8,
+    "title": "Frango Assado com Ervas",
+    "ingredients": [
+      "1 frango inteiro",
+      "2 colheres de sopa de azeite",
+      "2 colheres de sopa de ervas finas",
+      "1 limão",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Tempere o frango com azeite, ervas, limão, sal e pimenta. 2. Asse em forno preaquecido a 200°C por 1 hora."
+  },
+  {
+    "id": 9,
+    "title": "Mousse de Maracujá",
+    "ingredients": [
+      "1 lata de leite condensado",
+      "1 lata de creme de leite",
+      "1/2 xícara de suco de maracujá",
+      "1 pacote de gelatina incolor"
+    ],
+    "instructions": "1. Hidrate a gelatina conforme as instruções. 2. Bata todos os ingredientes no liquidificador. 3. Despeje em uma forma e leve à geladeira por 4 horas."
+  },
+  {
+    "id": 10,
+    "title": "Bife à Milanesa",
+    "ingredients": [
+      "4 bifes de carne",
+      "1 xícara de farinha de trigo",
+      "1 xícara de farinha de rosca",
+      "2 ovos",
+      "Sal e pimenta a gosto",
+      "Óleo para fritar"
+    ],
+    "instructions": "1. Tempere os bifes. 2. Passe na farinha de trigo, depois no ovo e na farinha de rosca. 3. Frite em óleo quente até dourar."
+  },
+  {
+    "id": 11,
+    "title": "Cuscuz Paulista",
+    "ingredients": [
+      "1 xícara de cuscuz",
+      "1/2 xícara de tomates picados",
+      "1/2 xícara de azeitonas",
+      "1/4 xícara de ervilhas",
+      "1/4 xícara de cenoura ralada",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Cozinhe o cuscuz conforme as instruções. 2. Misture com os demais ingredientes e ajuste o tempero."
+  },
+  {
+    "id": 12,
+    "title": "Lasanha de Carne",
+    "ingredients": [
+      "12 folhas de lasanha",
+      "500g de carne moída",
+      "1 lata de molho de tomate",
+      "2 xícaras de queijo muçarela",
+      "1 xícara de queijo parmesão",
+      "1 cebola",
+      "1 dente de alho",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Cozinhe a carne com cebola e alho. 2. Misture com o molho de tomate. 3. Monte a lasanha alternando camadas de molho, queijo e folhas de lasanha. 4. Asse por 40 minutos."
+  },
+  {
+    "id": 13,
+    "title": "Creme de Abóbora",
+    "ingredients": [
+      "500g de abóbora",
+      "1 cebola",
+      "2 dentes de alho",
+      "1 litro de caldo de legumes",
+      "1/2 xícara de creme de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Cozinhe a abóbora com cebola e alho. 2. Bata no liquidificador e misture com o caldo de legumes. 3. Adicione o creme de leite e ajuste o tempero."
+  },
+  {
+    "id": 14,
+    "title": "Quiche de Queijo",
+    "ingredients": [
+      "1 massa de torta",
+      "2 xícaras de queijo ralado",
+      "4 ovos",
+      "1 xícara de creme de leite",
+      "1/2 xícara de leite",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Forre uma forma com a massa. 2. Bata os ovos com o creme de leite e leite. 3. Misture com o queijo e ajuste o tempero. 4. Asse por 30 minutos."
+  },
+  {
+    "id": 15,
+    "title": "Arroz à Grega",
+    "ingredients": [
+      "1 xícara de arroz",
+      "1/4 xícara de cenoura picada",
+      "1/4 xícara de ervilhas",
+      "1/4 xícara de milho",
+      "1/4 xícara de azeitonas",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Cozinhe o arroz conforme as instruções. 2. Misture com cenoura, ervilhas, milho e azeitonas. 3. Ajuste o tempero."
+  },
+  {
+    "id": 16,
+    "title": "Sushi de Salmão",
+    "ingredients": [
+      "2 xícaras de arroz para sushi",
+      "200g de salmão fresco",
+      "Alga nori",
+      "1/4 xícara de vinagre de arroz",
+      "1 colher de sopa de açúcar",
+      "1/2 colher de chá de sal"
+    ],
+    "instructions": "1. Cozinhe o arroz e misture com vinagre, açúcar e sal. 2. Corte o salmão em tiras. 3. Monte o sushi com arroz e salmão sobre as algas."
+  },
+  {
+    "id": 17,
+    "title": "Feijão Tropeiro",
+    "ingredients": [
+      "2 xícaras de feijão",
+      "100g de bacon",
+      "1 cebola",
+      "2 dentes de alho",
+      "1/4 xícara de farinha de mandioca",
+      "Sal e pimenta a gosto"
+    ],
+    "instructions": "1. Cozinhe o feijão. 2. Refogue o bacon, cebola e alho. 3. Misture com o feijão e a farinha. 4. Ajuste o tempero."
+  },
+  {
+    "id": 18,
+    "title": "Pão de Alho",
+    "ingredients": [
+      "1 pão francês",
+      "1/4 xícara de manteiga",
+      "3 dentes de alho picados",
+      "1/4 xícara de queijo parmesão ralado",
+      "Salsinha a gosto"
+    ],
+    "instructions": "1. Misture a manteiga com alho e salsinha. 2. Espalhe sobre o pão. 3. Polvilhe com queijo e asse por 10 minutos."
+  },
+  {
+    "id": 19,
+    "title": "Torta de Limão",
+    "ingredients": [
+      "1 massa de torta",
+      "1 lata de leite condensado",
+      "1/2 xícara de suco de limão",
+      "2 claras",
+      "1/4 xícara de açúcar"
+    ],
+    "instructions": "1. Forre uma forma com a massa. 2. Misture leite condensado com suco de limão. 3. Bata as claras com açúcar e cubra a torta. 4. Asse por 15 minutos."
+  },
+  {
+    "id": 20,
+    "title": "Café Gelado",
+    "ingredients": [
+      "2 xícaras de café forte",
+      "1/2 xícara de leite",
+      "1/4 xícara de açúcar",
+      "Gelo a gosto"
+    ],
+    "instructions": "1. Misture o café com leite e açúcar. 2. Sirva com gelo."
+  }
+]
